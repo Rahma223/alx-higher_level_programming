@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     """print the calculation of 1 and 2."""
-    from calculator_1.py import add, sub, mul, div
+    from calculator_1 import add, sub, mul, div
 
     a = 10
     b = 5
