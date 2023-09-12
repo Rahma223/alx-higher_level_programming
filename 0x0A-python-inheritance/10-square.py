@@ -7,8 +7,8 @@ class Square(Rectangle):
     '''A subclass square'''
     def __init__(self, size):
         '''constractor'''
-        self.integer_validator = ("size", size)
-        self.size = size
+        self.integer_validator("size", size)
+        self.__size = size
         super().__init__(size, size)
 
     def area(self):
