@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-'''is instance directly or indirectly class'''
+'''Module for inherits_from method.'''
+
 
 def inherits_from(obj, a_class):
-    '''instance directly or indirectly class'''
+    '''Determines if an object is a true subclass of a class.'''
     return isinstance(obj, a_class) and type(obj) != a_class
