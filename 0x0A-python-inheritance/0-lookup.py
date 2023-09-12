@@ -1,6 +1,13 @@
 #!/usr/bin/python3
-'''lookup method.'''
+'''Module for lookup method.'''
+
 
 def lookup(obj):
-    """Return a list of an object's available attributes."""
+    '''Looks up object attributes and methods.
+    Args:
+        obj (object): the object to list.
+
+    Returns:
+        list: the list of attributes.
+    '''
     return dir(obj)
